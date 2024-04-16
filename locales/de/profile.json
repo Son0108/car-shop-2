@@ -1,0 +1,31 @@
+{
+  "heading": {
+    "title": "Profil",
+    "yourProfile": "Dein Profil",
+    "updatePassword": "Passwort aktualisieren",
+    "documents": "Deine Dokumente",
+    "questionnaire": "Deine Antworten",
+    "uploadDocument": "{{documentType}} hochladen",
+    "payments": "Zahlungseinstellungen"
+  },
+  "tabs": {
+    "profile": "Profil",
+    "password": "Passwort",
+    "documents": "Dokumente",
+    "questionnaire": "Fragebogen",
+    "payments": "Zahlungen"
+  },
+  "forms": {
+    "yourCompany": "Deine Firma"
+  },
+  "messages": {
+    "updateProfile": {
+      "success": "Dein Profil wurde aktualisiert.",
+      "failure": "Dein Profil konnte nicht aktualisiert werden."
+    },
+    "updatePassword": {
+      "success": "Dein Passwort wurde aktualisiert.",
+      "failure": "Dein Passwort konnte nicht aktualisiert werden."
+    }
+  }
+}

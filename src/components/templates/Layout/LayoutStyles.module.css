@@ -1,0 +1,6 @@
+.backgroundWithShapes {
+    background-color: #bbe1fa;
+    background-image: url("/images/image-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

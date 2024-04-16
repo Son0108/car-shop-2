@@ -1,0 +1,10 @@
+{
+  "heading": "Fragebogen",
+  "explanation": "Mit dem Beantworten des Fragebogens ermöglichst du dem Vermieter sich ein besseres Bild von dir machen zu können. Hiermit kann sich deine Chance auf eine potentielle Zusage erhöhen!",
+  "overview": "Du hast {{answered}} von {{totalAmount}} Fragen beantwortet.",
+  "start": "Fragebogen ausfüllen",
+  "errors": {
+    "couldNotSave": "Deine Antwort konnte nicht gespeichert werden."
+  },
+  "noAnswer": "Keine Angabe"
+}

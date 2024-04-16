@@ -1,0 +1,51 @@
+{
+  "title": "Axara",
+  "page-not-found": "Diese Seite existiert nicht",
+  "unauthorized": {
+    "title": "Kein Zugriff"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Scheint als hättest du dich verirrt \uD83D\uDE32",
+    "toDashboard": "Zurück zur <0>Übersicht</0>",
+    "toLogin": "Zum <0>Login</0>"
+  },
+  "stepper": {
+    "step": "Schritt",
+    "summary": "Schritt {{current}} von {{max}}"
+  },
+  "actions": {
+    "logout": "Abmelden",
+    "close": "Schliessen"
+  },
+  "avatarMenu": {
+    "avatarAlt": "Avatar von {{firstName}} {{lastName}}",
+    "open": "Avatar-Menu öffnen",
+    "close": "Avatar-Menu schliessen"
+  },
+  "text": {
+    "loading": "Laden...",
+    "noData": "Keine Daten.",
+    "or": "oder"
+  },
+  "fatalError": {
+    "title": "Unerwarteter Fehler",
+    "text": "Ein unerwarteter Fehler ist aufgetreten. Bitte lade die Seite neu.",
+    "reloadPage": "Seite neuladen"
+  },
+  "pagination": {
+    "showing": "Zeige",
+    "to": "bis",
+    "of": "von",
+    "results": "Resultaten",
+    "next": "Nächste",
+    "previous": "Vorherige",
+    "showAll": "Alle"
+  },
+  "filter": {
+    "title": "Filter",
+    "defaultFilter": "Kein Filter",
+    "firstnameFilter": "Vorname",
+    "lastnameFilter": "Nachname"
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "route": "/dashboard",
+    "authenticated": true
+  },
+  {
+    "route": "/login",
+    "authenticated": false
+  },
+  {
+    "route": "/sign-up",
+    "authenticated": false
+  },
+  {
+    "route": "/sign-up/complete-profile",
+    "authenticated": true
+  },
+  {
+    "route": "/logout",
+    "authenticated": true
+  },
+  {
+    "route": "/real-estates",
+    "authenticated": true,
+    "anyRoles": ["INDIVIDUAL_AGENT", "BUSINESS_AGENT"]
+  },
+  {
+    "route": "/real-estates/new",
+    "authenticated": true,
+    "anyRoles": ["INDIVIDUAL_AGENT", "BUSINESS_AGENT"]
+  },
+  {
+    "route": "/real-estates/[id]/edit",
+    "authenticated": true,
+    "anyRoles": ["INDIVIDUAL_AGENT", "BUSINESS_AGENT"]
+  },
+  {
+    "route": "/applications/[id]",
+    "authenticated": true,
+    "anyRoles": ["INDIVIDUAL_AGENT", "BUSINESS_AGENT"]
+  },
+  {
+    "route": "/profile",
+    "authenticated": true
+  }
+]

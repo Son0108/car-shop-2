@@ -1,0 +1,7 @@
+body {
+    @apply font-sans antialiased text-gray-900 bg-gray-200;
+}
+
+* {
+    outline: none;
+}

@@ -1,0 +1,60 @@
+{
+  "heading": {
+    "credentials": "Registrieren",
+    "consent": "Datenschutz"
+  },
+  "toLogin": "Zum Login",
+  "userTypeForm": {
+    "options": {
+      "tenant": {
+        "name": "Mieter",
+        "description": "Du bist auf der Suche nach deiner Traumwohnung?"
+      },
+      "agent": {
+        "name": "Vermieter",
+        "description": "Du suchst nach dem perfekten Mieter für dein Mietobjekt?"
+      },
+      "businessAgent": {
+        "name": "Vermieterfirma",
+        "description": "Du suchst nach dem perfekten Mieter für dein Mietobjekt?"
+      }
+    }
+  },
+  "userConsentForm": {
+    "text": "Datenschutz ist Vertrauenssache, und dein Vertrauen ist uns wichtig. Wir respektieren deine Persönlichkeit und Privatsphäre. Darum stellen wir den Schutz und die gesetzeskonforme Bearbeitung deiner Personendaten sicher.",
+    "fields": {
+      "termsOfUse": "<0>Ich akzeptiere die <1>Allgemeinen Geschäftsbedingungen</1></0>",
+      "privacyPolicy": "<0>Ich akzeptiere die <1>Datenschutzerklärung</1></0>"
+    },
+    "validation": {
+      "termsOfUse": "Die AGB müssen bestätigt werden um die Applikation nutzen zu können.",
+      "privacyPolicy": "Die Dateschutzerklärung muss akzeptiert werden um die Applikation nutzen zu können."
+    }
+  },
+  "validLegalCategory": "Bitte wählen Sie eine gültige Firmenart aus",
+  "nextStep": "Weiter",
+  "signUp": "Registrierung abschliessen",
+  "haveAnAccount": "Sie haben bereits einen Account?",
+  "loginLink": "Login",
+  "success": {
+    "heading": "Registrierung erfolgreich",
+    "text": {
+      "emailSent": "Eine Bestätigungsmail wurde an {{email}} gesendet.",
+      "activationLink": "Klicke auf den Aktivierungslink um dich mit deinem Account einzuloggen."
+    }
+  },
+  "completeProfile": {
+    "intro": "Nachdem du dich erfolgreich registriert hast und deine Kontaktdaten verifiziert hast, geht es nun darum dein Profil zu vervollständigen.",
+    "questionnaireIntro": "Gleich wirst du einen Fragebogen ausfüllen können, bei dem du Daten angeben kannst, welche deinen potentiellen Vermieter interessieren könnten.",
+    "questionnaireOptional": "Das beantworten der Fragen ist hierbei optional.",
+    "questionnaireFinished": "Du hast {{percentage}} der Fragen beantwortet. \n Du kannst die Antworten auf die Fragen jederzeit bei deinem Profil ergänzen oder bearbeiten.",
+    "outro": "Dein Profil ist nun fertig eingerichtet. Sofern du deine Angaben ändern möchtest, kannst du diese jederzeit auf deinem Profil anpassen."
+  },
+  "avatarForm": {
+    "text": "Lade ein Profilbild von dir hoch. Dies ist für alle anderen Benutzer, mit denen du interagierst, sichtbar."
+  },
+  "uploadDocumentsForm": {
+    "intro": "Bevor ein Vermieter dich als potentiellen Mieter in Betracht ziehen kann, muss du die folgenden Dokumente hochladen.",
+    "orLater": "Du kannst die Dokumente jetzt oder zu einem späteren Zeitpunkt in deinem Profil hochladen."
+  }
+}

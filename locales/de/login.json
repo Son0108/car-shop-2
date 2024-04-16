@@ -1,0 +1,11 @@
+{
+  "heading": "Anmelden",
+  "fields": {
+    "rememberMe": "Angemeldet bleiben"
+  },
+  "loginButton": "Anmelden",
+  "noAccountYet": "Sie haben noch keinen Account?",
+  "signUpLink": "Registrieren",
+  "forgotPassword": "Passwort vergessen?",
+  "or": "oder"
+}

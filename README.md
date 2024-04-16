@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Owaro-Frontend
 
-## Getting Started
+## Geting Started
 
-First, run the development server:
+1. Make sure [Yarn package-manager](https://yarnpkg.com/) is installed. (Check by running `yarn -v`)
+2. Run `yarn` to install the project dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Development mode
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run `yarn dev` or `npm run dev`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Production mode
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Build the application with `yarn build`
+2. Start the built application with `yarn start`
 
-## Learn More
+## Testing
 
-To learn more about Next.js, take a look at the following resources:
+### Concept
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Components are tested based on their complexity,
+the following rules define how different parts of the application are being tested.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For components inside the `atoms` or `molecules` sub-folder:
 
-## Deploy on Vercel
+1. Automated snapshot-testing based on the storybook-entry.
+2. Components that interact with user-input are additionally tested with a component-test.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For components inside the `organisms` sub-folder:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Automated snapshot-testing based on the storybook-entry.
+2. Integration testing using cypress. (Either a dedicated test or a general test that thoroughly test the component)
+
+For components inside the `templates` sub-folder:
+
+1. End-to-end testing using cypress. (Either a dedicated test or a general test that thoroughly test the component)
+
+For other typescript files such as `services` or `utilities`:
+
+1. Unit testing

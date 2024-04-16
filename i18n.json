@@ -1,0 +1,18 @@
+{
+  "locales": ["de","en"],
+  "defaultLocale": "de",
+  "pages": {
+    "*": ["common", "forms", "errors", "navigation", "notifications"],
+    "/": ["home"],
+    "/login": ["login"],
+    "rgx:/sign-up+": ["signUp"],
+    "/sign-up/complete-profile": ["questionnaire", "profile"],
+    "/reset-password": ["resetPassword"],
+    "/forgot-password": ["forgotPassword"],
+    "/verify/email": ["verifyEmail"],
+    "/dashboard": ["dashboard", "realEstates"],
+    "rgx:/real-estates+": ["realEstates"],
+    "rgx:/applications": ["applications", "realEstates", "questionnaire"],
+    "/profile": ["profile", "questionnaire"]
+  }
+}

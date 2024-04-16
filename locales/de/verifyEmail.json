@@ -1,0 +1,13 @@
+{
+  "heading": "Email bestätigen",
+  "invalidLink": "Ungültiger Bestätigungslink",
+  "invalidToken": "Ungültiges Bestätigungstoken",
+  "verificationRequired": "Um unsere Dienste nutzen zu können, müssen Sie zuerst Ihre E-Mail Adresse bestätigen. Ein Bestätigungslink wurde Ihnen bei der Registrierung gesendet",
+  "verificationInProgress": "Deine Email wird bestätigt...",
+  "verificationFailed": "Bestätigung fehlgeschlagen",
+  "verificationSuccessful": "Bestätigung erfolgreich",
+  "verifiedEmail": "Deine Email ist nun bestätigt.",
+  "toDashboard": "Zur Hauptseite",
+  "toLogin": "Zum Login",
+  "backToLogin": "Zurück zum Login"
+}

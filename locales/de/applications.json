@@ -1,0 +1,24 @@
+{
+  "title": "Bewerbung von {{firstName}} {{lastName}}",
+  "headings": {
+    "general": "Informationen zum Bewerben",
+    "answers": "Antworten zum Fragebogen"
+  },
+  "text": {
+    "realEstateName": "Immobilie: {{name}}",
+    "noDocuments": "Keine Dokumente",
+    "thisApplicationAccepted": "Diese Bewerbung wurde angenommen.",
+    "otherApplicationAccepted": "Eine andere Bewerbung wurde angenommen.",
+    "thisApplicationTemporaryAccepted": "Diese Bewerbung wurde mit Vorbehalt angenommen.",
+    "otherApplicationTemporaryAccepted": "Eine andere Bewerbung wurde mit Vorbehalt angenommen.",
+    "thisApplicationDeclined": "Diese Bewerbung wurde abgelehnt.",
+    "promptAcceptWarning": "Durch das Annehmen dieser Bewerbung werden alle andern automatisch abgelehnt. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "navigateToRealEstate": "Zur Immobilie"
+  },
+  "actions": {
+    "accept": "Annehmen",
+    "acceptTemporary": "Mit Vorbehalt annehmen",
+    "decline": "Ablehnen"
+  },
+  "titleAllApplications": "Alle Bewerbungen für Immobile {{name}}"
+}

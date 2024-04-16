@@ -1,0 +1,33 @@
+{
+  "loginSuccess": "Login erfolgreich",
+  "logonError": "Der Benutzer konnte nicht geladen werden, bitte logge dich neu ein.",
+  "realEstateCreated": "Immobilie erfasst",
+  "realEstateUpdated": "Immobilie aktualisiert",
+  "createApplicationSuccess": "Deine Bewerbung wurde geschickt",
+  "verify": {
+    "email": {
+      "title": "E-Mail nicht bestätigt",
+      "message": "Du musst deine E-Mail Adresse bestätigen bevor du unsere Plattform nutzen kannst. Der Bestätigungslink wurde dir bei der Registrierung geschickt."
+    },
+    "phone": {
+      "title": "Telefonnummer nicht bestätigt",
+      "message": "Deine Telefonnummer muss zuerst bestätigt werden bevor du unsere Plattform nutzen kannst. Wir werden hierfür telefonisch mit dir in Kontakt treten. Dies kann einige Tage in Anspruch nehmen."
+    }
+  },
+  "error": {
+    "couldNotLoadUser": "Dein Benutzer konnte nicht geladen werden. Bitte melde dich neu an."
+  },
+  "userStatus": {
+    "requestNewVerificationEmail": {
+      "sent": "Ihnen wurde ein neuer Bestätigungslink gesendet.",
+      "alreadySent": "Ihnen wurde bereits ein neuer Bestätigungslink gesendet."
+    }
+  },
+  "apiError": {
+    "forbidden": "Fehlende Berechtigungen",
+    "notFound": "Die abgefragte Ressource existiert nicht."
+  },
+  "forgotPassword": {
+    "emailSent": "Wir haben dir eine Email gesendet um dein Passwort zurückzusetzen."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "headings": {
+    "overview": "Immobilien Übersicht",
+    "new": "Neue Immobilie erfassen",
+    "detail": "Immobilien Detailansicht",
+    "applyNow": "Bewirb dich jetzt!",
+    "edit": "Immobilie bearbeiten"
+  },
+  "fields": {
+    "name": "Name der Liegenschaft",
+    "netRent": "Netto Miete",
+    "grossRent": "Brutto Miete",
+    "rooms": "Anzahl Zimmer",
+    "space": "Wohnfläche",
+    "referenceLink": "Referenzlink",
+    "image": "Bild",
+    "published": "Veröffentlicht"
+  },
+  "validation": {
+    "positiveNumericValue": "Bitte geben Sie einen positiven Wert ein.",
+    "referenceLink": "Nur Links von Immoscout24.ch und Homegate.ch sind erlaubt.",
+    "largerThanGross": "Die Nettomiete sollte weniger oder gleich die Bruttomiete sein."
+  },
+  "text": {
+    "realEstates": "Immobilien",
+    "realEstateInfo": "{{rooms}} Zimmer, Miete {{rent}}, {{space}} ㎡",
+    "amountOfOpenApplications": "{{amount}} offene Bewerbungen",
+    "agent": "Vermieter:in",
+    "applicants": "Bewerber:innen",
+    "appliedAt": "Beworben am {{date}}",
+    "shareRealEstate": "Immobilie teilen",
+    "downloadQrCode": "QR-Code herunterladen",
+    "referenceLink": "Referenzlink",
+    "representsCompany": "Firma {{company}}",
+    "alreadyApplied": "Du hast dich bereits für diese Immobilie beworben.",
+    "applicationDeclined": "Deine Bewerbung wurde abgelehnt",
+    "applicationTemporaryAccepted": "Deine Bewerbung wurde mit vorbehalt angenommen.",
+    "applicationAccepted": "Deine Bewerbung wurde angenommen.",
+    "noLongerAvailable": "Für diese Immobilie werden keine Bewerbungen mehr entgegen genommen."
+  },
+  "actions": {
+    "new": "Neue Immobilie erfassen",
+    "edit": "Bearbeiten",
+    "apply": "Jetzt bewerben",
+    "login": "Anmelden",
+    "allApplications": "Alle Bewerbungen ansehen"
+  }
+}

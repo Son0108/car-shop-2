@@ -1,0 +1,93 @@
+{
+  "fields": {
+    "email": "Email",
+    "password": "Passwort",
+    "passwordConfirm": "Passwort bestätigen",
+    "oldPassword": "Altes Passwort",
+    "newPassword": "Neues Passwort",
+    "newPasswordConfirm": "Neues Passwort bestätigen",
+    "phoneNumber": "Telefonnummer",
+    "countryCode": "Landesvorwahl",
+    "address": "Adresse",
+    "street": "Strasse & Nummer",
+    "postCode": "Postleitzahl",
+    "city": "Stadt",
+    "country": "Land",
+    "files": "Dateien",
+    "title": "Anrede",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "fullName": "Name",
+    "userType": "Benutzerart",
+    "birthDate": "Geburtsdatum",
+    "companyName": "Name der Firma",
+    "companyAddress": "Adresse der Firma",
+    "legalFormCategory": "Rechtsform",
+    "avatar": "Profilbild",
+    "documents": "Dokumente"
+  },
+  "helperText": {
+    "select": {
+      "selectAValue": "Wählen Sie einen Wert"
+    },
+    "uploadFile": "Datei hochladen",
+    "uploadDifferentFile": "Ersetzen",
+    "orDragAndDrop": "oder ziehe eine Datei auf das Feld",
+    "uploadFilesOfTypeWithLimit": "{{mimeTypes}} bis zu {{uploadLimit}}"
+  },
+  "validation": {
+    "required": "Pflichtfeld",
+    "email": "Bitte geben Sie eine Email-Adresse ein",
+    "emailAlreadyExists": "Es ist bereits ein Benutzer mit dieser E-Mail registriert. Bitte verwenden Sie eine andere E-Mail.",
+    "validDate": "Bitte wählen Sie ein gültiges Datum aus",
+    "password": {
+      "mustMatch": "Die Passwörter müssen übereinstimmen",
+      "secure": "Bitte geben Sie ein sicheres Passwort ein.",
+      "minLength": "Mindestens {{amount}} Zeichen",
+      "minLowerCase": "Mindestens {{amount}} Kleinbuchstaben",
+      "minUpperCase": "Mindestens {{amount}} Grossbuchstaben",
+      "minNumbers": "Mindestens {{amount}} Zahlen",
+      "minSpecial": "Mindestens {{amount}} Sonderzeichen (!@#$%^&*()\\-_+.)"
+    },
+    "address": {
+      "invalid": "Bitte geben Sie eine gültige Adresse ein."
+    },
+    "phoneNumber": {
+      "invalid": "Bitte geben Sie eine gültige Telefonnummer ein."
+    },
+    "url": "Bitte geben Sie eine gültige URL ein",
+    "18orOlder": "Sie müssen mindestens 18 Jahre alt sein um unseren Dienst nutzen zu können",
+    "selectAvailableValue": "Bitte wählen Sie eine der vorgegebenen Werte",
+    "file": {
+      "invalid": "Die Datei ist ungültig",
+      "size": "Die Datei überschreitet die maximale Grösse von {{maximumSize}}",
+      "badFormat": "Dieses Dateiformat wird nicht unterstützt"
+    },
+    "string": {
+      "minLength": "Mindestens {{amount}} Zeichen",
+      "maxLength": "Maximum {{amount}} Zeichen"
+    },
+    "number": {
+      "min": "Bitte geben Sie einen Wert grösser als {{value}} ein.",
+      "max": "Bitte geben Sie einen Wert kleiner als {{value}} ein.",
+      "positive": "Bitte geben Sie einen positiven Wert ein.",
+      "multipleOf": "Bitte geben Sie ein Vielfaches von {{value}} ein."
+    }
+  },
+  "actions": {
+    "continue": "Weiter",
+    "create": "Erstellen",
+    "submit": "Senden",
+    "update": "Aktualisieren",
+    "change": "Ändern",
+    "reset": "Zurücksetzen",
+    "cancel": "Abbrechen",
+    "back": "Zurück",
+    "skip": "Überspringen",
+    "apply": "Bewerben",
+    "upload": "Hochladen",
+    "download": "Herunterladen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen"
+  }
+}

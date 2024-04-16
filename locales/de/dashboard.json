@@ -1,0 +1,23 @@
+{
+  "title": "Übersicht",
+  "dashboard": "Übersicht",
+  "welcomeBack": "Willkommen zurück!",
+  "answeredQuestions": "<0>{{answered}}/{{total}} ({{percentage}}%)</0><1>Fragen beantwortet</1>",
+  "tenant": {
+    "applications": "Bewerbungen",
+    "appliedOn": "Beworben am {{date}}",
+    "rooms": "Zimmer",
+    "netRent": "Netto Miete",
+    "sqm": "m"
+  },
+  "activities": "Aktivitäten",
+  "profileOverview": "Profilübersicht",
+  "pendingApplications": "Offene Bewerbungen",
+  "declinedApplications": "Abgelehnte Bewerbungen",
+  "noData": "Keine Daten.",
+  "questionnaire": {
+    "title": "Fragebogen",
+    "link": "Zum Fragebogen",
+    "answerMoreQuestions": "Wenn du mehr Fragen beantwortest, ermöglichst du dem Vermieter, sich ein besser Bild von dir zu machen, und steigerst so deine Chance auf eine Zusage"
+  }
+}
